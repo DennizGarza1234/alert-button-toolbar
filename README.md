@@ -1,16 +1,51 @@
-# React + Vite
+# Alert Button Toolbar (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
+This project is a React application built using Vite. It demonstrates how to create reusable components using props, including the children prop, and how to handle events using onClick handlers.
 
-Currently, two official plugins are available:
+The application includes a Toolbar component that contains multiple AlertButton components. Each button displays a unique alert message when clicked.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Reusable React components
+- Props for passing data between components
+- Use of the children prop
+- Event handling with onClick
+- Multiple buttons with different behaviors
 
-## React Compiler
+## Technologies Used
+- React
+- Vite
+- JavaScript
+- HTML/CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## How to Run the Project
 
-## Expanding the ESLint configuration
+1. Clone the repository
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/YOUR-USERNAME/alert-button-toolbar.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd alert-button-toolbar
+```
+
+3. Install dependencies 
+
+```bash
+npm install
+```
+
+4. Run the development server
+
+```bash
+npm run dev
+```
+
+5. Open the local server (usually)
+http://localhost:5173
+
+## Youtube
+https://youtu.be/wTaTVc5Ik5Y
